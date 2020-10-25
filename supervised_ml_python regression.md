@@ -73,9 +73,6 @@ clf = GradientBoostingClassifier(max_depth=4)
 clf.fit(X,y)
 ```
 
-
-```
-
 # Metrics
 ## Regression
 
