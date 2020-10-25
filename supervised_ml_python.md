@@ -58,9 +58,9 @@ regd.fit(X,y)
 # Random Forest
 ```python
 # Load the library
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
 # Create an instance
-clf = RandomForestClassifier(max_depth=4)
+clf = RandomForestRegressor(max_depth=4)
 # Fit the data
 clf.fit(X,y)
 ```
